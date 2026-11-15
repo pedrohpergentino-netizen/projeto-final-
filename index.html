@@ -70,6 +70,48 @@
             </p>
         </section>
 
+
+        <section>
+            <h2>Conheça nossos equipamentos</h2>
+
+            <p>
+                Confira uma demonstração dos equipamentos
+                médicos e cirúrgicos da MedSurgical.
+            </p>
+            <!--
+            preload="none": escolhido porque o vídeo é demonstrativo
+            e o visitante pode optar por assisti-lo.
+            Assim, evitamos baixar o vídeo antes da interação.
+            -->
+            <video
+                controls
+                preload="none"
+                poster="assets/images/video-poster.jpg"
+                width="600"
+            >
+
+                <source
+                    src="assets/videos/demonstracao.webm"
+                    type="video/webm"
+                >
+
+                <source
+                    src="assets/videos/demonstracao.mp4"
+                    type="video/mp4"
+                >
+
+                <track
+                    src="assets/videos/legendas.vtt"
+                    kind="captions"
+                    srclang="pt-BR"
+                    label="Português"
+                    default
+                >
+                Seu navegador não suporta a reprodução de vídeos.
+               
+            </video>
+        </section>
+
         <section>
             <h2>Avalie um produto</h2>
 
